@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Outlook2010Sender.dll" version="1.0.0.6" publicKeyToken="161ff38a13464704" language="neutral" processorArchitecture="msil" type="win32" />
+  <description xmlns="urn:schemas-microsoft-com:asm.v1">Outlook2010Sender</description>
+  <application />
+  <entryPoint>
+    <co.v1:customHostSpecified />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Tools" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Tools.Common" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Tools.Outlook" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Tools.v4.0.Framework" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualStudio.Tools.Applications.Runtime" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="stdole" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Office.Tools.Common.v4.0.Utilities.dll" size="32664">
+      <assemblyIdentity name="Microsoft.Office.Tools.Common.v4.0.Utilities" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>CtnCtseaMyfROIGe0ENdGO6arHg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Office.Tools.Outlook.v4.0.Utilities.dll" size="49048">
+      <assemblyIdentity name="Microsoft.Office.Tools.Outlook.v4.0.Utilities" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Z2LMwub6uJYcSN1VkUMhJr/zdU8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Outlook2010Sender.dll" size="41472">
+      <assemblyIdentity name="Outlook2010Sender" version="1.0.0.2" publicKeyToken="161FF38A13464704" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>WpGMFnFBt/SZgqgB1SIF6uWq21o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Outlook2010Sender.dll.config" size="159">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1MarUy3RuVvHLdw5ozZo3o7j39I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <vstav3:addIn xmlns:vstav3="urn:schemas-microsoft-com:vsta.v3">
+    <vstav3:entryPointsCollection>
+      <vstav3:entryPoints>
+        <vstav3:entryPoint class="Outlook2010Sender.ThisAddIn">
+          <assemblyIdentity name="Outlook2010Sender" version="1.0.0.2" publicKeyToken="161FF38A13464704" language="neutral" processorArchitecture="msil" />
+        </vstav3:entryPoint>
+      </vstav3:entryPoints>
+    </vstav3:entryPointsCollection>
+    <vstav3:update enabled="false" />
+    <vstav3:application>
+      <vstov4:customizations xmlns:vstov4="urn:schemas-microsoft-com:vsto.v4">
+        <vstov4:customization>
+          <vstov4:appAddIn application="Outlook" loadBehavior="3" keyName="Outlook2010Sender">
+            <vstov4:friendlyName>Outlook2010Sender</vstov4:friendlyName>
+            <vstov4:description>Outlook2010Sender</vstov4:description>
+            <vstov4.1:ribbonTypes xmlns:vstov4.1="urn:schemas-microsoft-com:vsto.v4.1" />
+          </vstov4:appAddIn>
+        </vstov4:customization>
+      </vstov4:customizations>
+    </vstav3:application>
+  </vstav3:addIn>
+<publisherIdentity name="CN=DROIDX\Rasmus" issuerKeyHash="c2a981ecd6cb102cffe36b252c34a512055f0cd9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>KjCK10YFCxxngyFaxQojLQsvTUQ=</DigestValue></Reference></SignedInfo><SignatureValue>fCrVMpotXg0RfH2GmQqx5VwhhfJbkm1MDo1uVawHPWVACpEFNMmgVfIOLWu+vaa4MhTABTNsHCpo8fsR2Gq26phbtyer/78T9U2CIzvEUnCg0kySzPXOB/iRuvCna8FRe1xQlUZwCnHTHXzZJHkBeRy1w6NxhUjWgFxKykkQ0R0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>teczq52yu+Jvt2bz5KucSlee9PGrptRb18STj4SA30RnZJke2wS2Of6dFxYzks2zKjN3zAoCy7UNBSGcdhPVzoCnSiEJk0ihjQMTkvViSCgGKhM/xiUF8fIlejyF/l+KwY57nK9LiqwfUnc87yEO83xNib2MRQHNqZhi+D3VWDU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="444d2f0b2d230ac55a2183671c0b0546d78a302a" Description="" Url=""><as:assemblyIdentity name="Outlook2010Sender.dll" version="1.0.0.6" publicKeyToken="161ff38a13464704" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DROIDX\Rasmus</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>i4GooSk1Ott3PgxyFLpMP/HAJg4=</DigestValue></Reference></SignedInfo><SignatureValue>NchGFQInGMbnb3UNXt7y+XnANWRlK2bdn2jNdaQp/83Jtx8bVNPbrJBwfpCOzBn4prTuiLAaWYqmh404NVnoEtIwKenbMytDibErja6LMW6DvPm/v50viMuxYcZAOYwocsgBgRtelCoOVsDjyViDf2b6Ixs0FPYcn8sRPuAr4hM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>teczq52yu+Jvt2bz5KucSlee9PGrptRb18STj4SA30RnZJke2wS2Of6dFxYzks2zKjN3zAoCy7UNBSGcdhPVzoCnSiEJk0ihjQMTkvViSCgGKhM/xiUF8fIlejyF/l+KwY57nK9LiqwfUnc87yEO83xNib2MRQHNqZhi+D3VWDU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQXUnfRzvA+alEWRlGkBs61TANBgkqhkiG9w0BAQUFADAlMSMwIQYDVQQDHhoARABSAE8ASQBEAFgAXABSAGEAcwBtAHUAczAeFw0xMzA2MDQxMTQyNDlaFw0xNDA2MDQxNzQyNDlaMCUxIzAhBgNVBAMeGgBEAFIATwBJAEQAWABcAFIAYQBzAG0AdQBzMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC15zOrnbK74m+3ZvPkq5xKV5708aum1FvXxJOPhIDfRGdkmR7bBLY5/p0XFjOSzbMqM3fMCgLLtQ0FIZx2E9XOgKdKIQmTSKGNAxOS9WJIKAYqEz/GJQXx8iV6PIX+X4rBjnucr0uKrB9SdzzvIQ7zfE2JvYxFAc2pmGL4PdVYNQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAE05VSE8fROy6GIu8oHIBfKPSCZECBmMlUsy1xUaJ6kKbyjovbo4F1+fMJxhKKyGAqBfn+nYhyPyoxsMOy+a1pRnMs+xltmtqEaDwlmsDeidM+kI0ibIGwSXTS01/z4+KFkKdbaYmzU+it0UYCmkqzxuoZ2RCATA/GqNM8riEzA5</X509Certificate></X509Data></KeyInfo><Object><as:Timestamp>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
+bA==
+</as:Timestamp></Object></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
